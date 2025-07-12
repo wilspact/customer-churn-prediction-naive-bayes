@@ -5,7 +5,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
 # 1. Load the dataset
-df = pd.read_csv("C:\\Users\\Lenovo\\Desktop\\dataset\\project\\bayes theorem pro\\WA_Fn-UseC_-Telco-Customer-Churn.csv")
+df = pd.read_csv("C:\\WA_Fn-UseC_-Telco-Customer-Churn.csv")
 
 # 2. Drop 'customerID' column
 df.drop('customerID', axis=1, inplace=True)
